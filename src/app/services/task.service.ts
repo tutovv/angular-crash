@@ -15,7 +15,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://my-json-server.typicode.com/tutovv/angular-crash/tasks'
+  private apiUrl = 'https://my-json-server.typicode.com/tutovv/angular-crash/tasks'
 
   constructor(private http:HttpClient) { }
 
